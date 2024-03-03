@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root,
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    box-sizing: border-box;
+    font-family: "Roboto", "Anta", sans-serif;
+   
+}
+/* Hide scrollbar for container with the hide-scrollbar class */
+.hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* WebKit */
+  }
