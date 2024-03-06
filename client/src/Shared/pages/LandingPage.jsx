@@ -9,14 +9,16 @@ import Footer from "../../students/components/Footer";
 
 
 
+
 const LandingPage = () => {
   return (
     <>
    <Hero/>
    <About/>
    <Courses/>
-   <Testimonial/>
+    <Testimonial/>
    <FAQs/>
+   
    <Footer/>
    
    </>

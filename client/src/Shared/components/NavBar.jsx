@@ -3,10 +3,11 @@ import { Link } from "react-router-dom"
 import SignUpModal from "../../students/pages/SignUpModal";
 
 import SideBar from "../../students/components/SideBar";
+import { useCartContext } from "../../context/cart_context";
 
 
 const NavBar = (props) => {
- 
+  const {total_items} = useCartContext();
   return (
     <div className='z-40 w-full h-[70px] px-5 border-b border-white bg-background_clr fixed top-0 left-0 flex justify-between items-center'>
     <Link to={'/'}><div className="flex items-center"><h2 className='font-extrabold text-2xl max-md:text-xl'>ACADEMIX</h2><span className='font-extrabold text-primary text-lg mt-2 max-md:text-xl' >PRO</span></div></Link>
@@ -21,7 +22,7 @@ const NavBar = (props) => {
         <Link to={'/courses'}><li className="hover:underline hover:text-red-600">Courses</li></Link>
         <Link to={'/instructor'}><li className="hover:underline hover:text-red-600">Instructor</li></Link>
         <Link to={'/mylearning'}><li className="hover:underline hover:text-red-600">My Learning</li></Link>
-        <Link to={'/cart'}><li className="hover:underline relative hover:text-red-600"><ShoppingCart/> <span className="px-2 rounded-full absolute left-4 bottom-3 bg-white">0</span></li></Link>
+        <Link to={'/cart'}><li className="hover:underline relative hover:text-red-600"><ShoppingCart/> <span className="px-2 rounded-full absolute left-4 bottom-3 bg-white">{total_items}</span></li></Link>
        <SideBar/>
         
       

@@ -2,11 +2,7 @@ import {courseAbout} from '../../../utils/DummyData'
 const About = () => {
   return (
     <div className='w-full h-screen bg-[#eae8e9] flex flex-col  gap-10 items-center justify-center' >
-        
-    {/* <div className="w-[50%]">
-        <img className='h-screen object-cover' src={aboutImg}/>
-    </div> */}
-
+   
 <p  className="text-[40px] ">Empowering Learning, Anytime, Anywhere</p>
         <p  className="text-[30px] text-primary">Fast-Track Your Expertise Journey!!</p>
     <div className="w-full flex  justify-center items-center gap-7" >

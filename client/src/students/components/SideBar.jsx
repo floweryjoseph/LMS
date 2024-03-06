@@ -9,8 +9,10 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { sidebar_items } from '../../../utils/DummyData';
+import { useCartContext } from '../../context/cart_context';
 
 export default function SideBar() {
+  const {total_items} = useCartContext();
   const [state, setState] = React.useState({right: false});
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -50,7 +52,7 @@ export default function SideBar() {
               <ListItemText primary={item.mylearning} />
             </ListItemButton>
             <ListItemButton>             
-              <ListItemText primary={item.mycart} />
+              <ListItemText primary={item.mycart}/><span className='rounded-full px-2 bg-primary text-white'>{total_items}</span> 
             </ListItemButton>
             <ListItemButton>             
               <ListItemText primary={item.wishlist} />

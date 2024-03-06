@@ -7,6 +7,7 @@ const Categories = () => {
       <div className="py-10 flex flex-col flex-wrap items-center justify-center gap-16 ">
         <h1 className="text-3xl font-bold">Top Categories</h1>
         <div className="flex gap-10">
+    
         {categories.map((item) => (
           <div
             key={item.id}
@@ -16,6 +17,7 @@ const Categories = () => {
             <p>{item.category}</p>
           </div>
         ))}
+       
         </div>
       </div>
     </>

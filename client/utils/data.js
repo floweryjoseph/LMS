@@ -1,4 +1,4 @@
-
+import { course_images } from "./images";
 
 const courses = [
     {
@@ -14,7 +14,7 @@ const courses = [
         updated_date: "9/2015",
         lang: "english",
         actual_price: 84.99,
-        discounted_price: 9.99,
+        discounted_price: 69.99,
         what_you_will_learn: [
             "Create their own Python Programs",
             "Become an experienced Python Programmer",
@@ -43,7 +43,7 @@ const courses = [
         updated_date: "9/2019",
         lang: "english",
         actual_price: 84.99,
-        discounted_price: 9.99,
+        discounted_price: 69.99,
         what_you_will_learn: [
             "Have an intermediate skill level of Python programming.",
             "Use the numpy library to create and manipulate arrays.",
@@ -73,7 +73,7 @@ const courses = [
         updated_date: "5/2022",
         lang: "english",
         actual_price: 84.99,
-        discounted_price: 9.99,
+        discounted_price: 79.99,
         what_you_will_learn: [
             "To learn the python language",
             "To learn the CORE skills to understand any programming language",
@@ -90,7 +90,7 @@ const courses = [
     {
         id: "VwkN_o",
         category: "python",
-        image: course_images.python_2,
+        image: course_images.python_4,
         course_name: "Python For Beginners : This course is meant for absolute beginners in programming or in python.",
         description: "Python introduction for beginners. Learn complete Python from scratch!",
         rating_count: 2780,
@@ -100,7 +100,7 @@ const courses = [
         updated_date: "9/2019",
         lang: "english",
         actual_price: 29.99,
-        discounted_price: 9.99,
+        discounted_price: 19.99,
         what_you_will_learn: [
             "Create fully functional Python programs",
             "Learn about loop structures and conditionals",
@@ -129,7 +129,7 @@ const courses = [
         updated_date: "9/2019",
         lang: "english",
         actual_price: 49.99,
-        discounted_price: 10.99,
+        discounted_price: 20.99,
         what_you_will_learn: [
             "Design Reusable Object-Oriented Python Classes",
             "How to handle Errors",
@@ -159,7 +159,7 @@ const courses = [
         updated_date: "11/2020",
         lang: "english",
         actual_price: 84.99,
-        discounted_price: 9.99,
+        discounted_price: 67.99,
         what_you_will_learn: [
             "Prepare for Industry Certification Exam",
             "Hours and Hours of Video Instruction",
@@ -193,7 +193,7 @@ const courses = [
         updated_date: "9/2019",
         lang: "english",
         actual_price: 72.99,
-        discounted_price: 14.99,
+        discounted_price: 54.99,
         what_you_will_learn: [
             "Learn Python from beginner to advanced",
             "Lots of projects, big and small!",
@@ -266,7 +266,7 @@ const courses = [
         updated_date: "8/2022",
         lang: "english",
         actual_price: 70.99,
-        discounted_price: 14.99,
+        discounted_price: 54.99,
         what_you_will_learn: [
             "Understand how development stacks work and pick which stack is ideal for you",
             "Decide between hiring in-house employees or contractors for your business",
@@ -303,7 +303,7 @@ const courses = [
         updated_date: "3/2022",
         lang: "english",
         actual_price: 50.99,
-        discounted_price: 11.99,
+        discounted_price: 45.99,
         what_you_will_learn: [
             "Build 23+ custom web design & development projects by hand",
             "Plan, design and code your very own self-directed website project from scratch to launch!",
@@ -340,7 +340,7 @@ const courses = [
         updated_date: "9/2022",
         lang: "english",
         actual_price: 77.99,
-        discounted_price: 16.99,
+        discounted_price: 56.99,
         what_you_will_learn: [
             "Successfully perform all steps in a complex Data Science project",
             "Perform Data Mining in Tableau",
@@ -375,7 +375,7 @@ const courses = [
         updated_date: "2/2022",
         lang: ["english", "french"],
         actual_price: 87.99,
-        discounted_price: 14.99,
+        discounted_price: 64.99,
         what_you_will_learn: [
             "Build artificial neural networks with Tensorflow and Keras",
             "Classify images, data, and sentiments using deep learning",
@@ -408,7 +408,7 @@ const courses = [
         updated_date: "8/2022",
         lang: ["english", "Portuguese"],
         actual_price: 90.99,
-        discounted_price: 19.99,
+        discounted_price: 79.99,
         what_you_will_learn: [
             "Learn how Deep Learning REALLY works (not just some diagrams and magical black box code)",
             "Code a neural network from scratch in Python and numpy",
@@ -439,7 +439,7 @@ const courses = [
         updated_date: "11/2021",
         lang: "english",
         actual_price: 45.99,
-        discounted_price: 6.99,
+        discounted_price: 36.99,
         what_you_will_learn: [
             "Learn to program in R at a good level",
             "Learn the core principles of programming",
@@ -471,7 +471,7 @@ const courses = [
         updated_date: "12/2020",
         lang: ["english", "arabic"],
         actual_price: 77.99,
-        discounted_price: 16.99,
+        discounted_price: 56.99,
         what_you_will_learn: [
             "Program in R",
             "Create Data Visualizations",
@@ -504,7 +504,7 @@ const courses = [
         updated_date: "12/2021",
         lang: ["english", "arabic"],
         actual_price: 69.99,
-        discounted_price: 11.99,
+        discounted_price: 51.99,
         what_you_will_learn: [
             "You will be fully prepared for the",
             "AWS Certified Solutions Architect",
@@ -532,7 +532,7 @@ const courses = [
         updated_date: "12/2022",
         lang: ["english", "french"],
         actual_price: 34.99,
-        discounted_price: 10.99,
+        discounted_price: 20.99,
         what_you_will_learn: [
             "Will be prepared to give AWS Certified Security Specialty Exam",
             "Gain deep insights about Enterprise grade Security implementation.",
@@ -561,7 +561,7 @@ const courses = [
         updated_date: "8/2022",
         lang: "english",
         actual_price: 71.99,
-        discounted_price: 15.99,
+        discounted_price: 65.99,
         what_you_will_learn: [
             "Breadth of understanding of various AWS services",
             "How to Integrate Services into a Complete Solution",
@@ -591,7 +591,7 @@ const courses = [
         updated_date: "7/2020",
         lang: ["english", "spanish"],
         actual_price: 13.99,
-        discounted_price: 5.99,
+        discounted_price: 7.99,
         what_you_will_learn: [
             "What Photoshop is & how to get into it!",
             "Customize the programs layout & feel comfortable",
@@ -622,7 +622,7 @@ const courses = [
         updated_date: "4/2020",
         lang: ["english", "italian"],
         actual_price: 79.99,
-        discounted_price: 16.99,
+        discounted_price: 66.99,
         what_you_will_learn: [
             "Bake UX into your workflow by following a proven, user centred design framework.",
             "Moderate a usability test and prioritise the observations.",
@@ -653,7 +653,7 @@ const courses = [
         updated_date: "4/2018",
         lang: "english",
         actual_price: 88.99,
-        discounted_price: 16.99,
+        discounted_price: 56.99,
         what_you_will_learn: [
             "Part one – everything you need for a fast-track start, including your first article",
             "Part three – the essential skills that mark out a real pro",
@@ -682,7 +682,7 @@ const courses = [
         updated_date: "4/2022",
         lang: "english",
         actual_price: 40.99,
-        discounted_price: 10.99,
+        discounted_price: 30.99,
         what_you_will_learn: [
             "Identify who your Ideal Clients are so you know exactly who to market and sell to",
             "Learn how to create a Signature Program so you can stop selling your time or creating spec proposals",

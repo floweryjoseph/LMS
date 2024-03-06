@@ -24,7 +24,7 @@ const initialState = {
 
 const CartContext = React.createContext();
 
-export const CartProvider = ({children}) => {
+export const CartProvider = (props) => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     const addToCart = (courseID, image, course_name, creator, discounted_price, category) => {
@@ -53,7 +53,7 @@ export const CartProvider = ({children}) => {
             removeFromCart,
             clearCart
         }}>
-            {children}
+            {props.children}
         </CartContext.Provider>
     )
 }

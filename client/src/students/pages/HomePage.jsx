@@ -1,6 +1,8 @@
-import Categories from "../../Shared/components/Categories"
-import HeroPage from "../components/HeroPage"
 
+
+import HeroPage from "../components/HeroPage"
+import Categories from "../../Shared/components/Categories"
+import CourseListPage from "../../Shared/pages/CourseListPage"
 
 
 const HomePage = () => {
@@ -8,7 +10,10 @@ const HomePage = () => {
     <>
    
     <HeroPage/>
-     <Categories/>
+    
+     <CourseListPage/>
+
+      <Categories/>/
     
     </>
   )

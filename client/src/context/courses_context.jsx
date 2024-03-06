@@ -1,7 +1,7 @@
 import React, {useContext, useReducer, useEffect} from "react";
 import { GET_CATEGORIES, GET_COURSES, GET_SINGLE_COURSE } from "../action";
 import reducer from "../reducers/courses_reducer";
-import courses from "../utils/data";
+import courses from "../../utils/data";
 
 const initialState = {
     courses: [],
@@ -11,7 +11,7 @@ const initialState = {
 
 const CoursesContext = React.createContext();
 
-export const CoursesProvider = ({children}) => {
+export const CoursesProvider = (props) => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     const fetchCourse = () => {
@@ -38,7 +38,7 @@ export const CoursesProvider = ({children}) => {
             ...state,
             fetchSingleCourse
         }}>
-            {children}
+            {props.children}
         </CoursesContext.Provider>
     )
 }
